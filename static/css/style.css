@@ -57,3 +57,10 @@ input[type=color], input[type=date], input[type=datetime-local], input[type=date
 
 /*出现弹窗后页面不能滚蛋*/
 .posf{ position:fixed}
+
+
+
+
+/*bootstarp重置*/
+.form-horizontal{background: #fff;}
+.form-group{background: #fff}
