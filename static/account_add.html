@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Account Add</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="css/mui.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/lkl_style.css">
+		<!--App自定义的css-->
+		<link rel="stylesheet" type="text/css" href="css/icons-extra.css" />
+		<link rel="stylesheet" type="text/css" href="css/app.css"/>
+		<script src="js/rem.js"></script>
+		
+	</head>
+	<body>
+	
+	<div class="mui-content">
+		<div class="add_detail">
+			<ul class="mui-table-view add_item">
+				<li class="mui-table-view-cell">
+					<div class="mui-row">
+						<div class="mui-col-xs-3 item_left">
+							事&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;项
+						</div>
+						<div class="mui-col-xs-9 item_right">
+							<input type="text" class="ipt_txt" placeholder="支出事项">
+						</div>
+					</div>
+				</li>
+				<li class="mui-table-view-cell">
+					<div class="mui-row">
+						<div class="mui-col-xs-3 item_left">
+							支&nbsp;出&nbsp;人
+						</div>
+						<div class="mui-col-xs-9 item_right">
+							<div class="mui-radio">
+								<input name="radio1" type="radio"  checked="">
+								<span class="radio_txt">G</span>
+							</div>
+							<div class="mui-radio">
+								<input name="radio1" type="radio">
+								<span class="radio_txt">Y</span>
+							</div>
+							<div class="mui-radio">
+								<input name="radio1" type="radio" >
+								<span class="radio_txt">L</span>
+							</div>
+							<div class="mui-radio">
+								<input name="radio1" type="radio">
+								<span class="radio_txt">S</span>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="mui-table-view-cell">
+					<div class="mui-row">
+						<div class="mui-col-xs-3 item_left">
+							支出今额
+						</div>
+						<div class="mui-col-xs-9 item_right">
+							<input type="text" class="ipt_txt" placeholder="请输入金额">
+						</div>
+					</div>
+				</li>
+				<li class="mui-table-view-cell">
+					<div class="mui-row">
+						<div class="mui-col-xs-3 item_left">
+							消&nbsp;费&nbsp;人&nbsp;
+						</div>
+						<div class="mui-col-xs-9 item_right">
+							<div class="mui-checkbox">
+								<input name="checkbox" value="Item 1" type="checkbox" checked="">
+								<span class="radio_txt">G</span>
+							</div>
+							<div class="mui-checkbox">
+								<input name="checkbox" value="Item 2" type="checkbox" >
+								<span class="radio_txt">Y</span>
+							</div>
+							<div class="mui-checkbox">
+								<input name="checkbox" value="Item 2" type="checkbox" >
+								<span class="radio_txt">L</span>
+							</div>
+							<div class="mui-checkbox">
+								<input name="checkbox" value="Item 2" type="checkbox" >
+								<span class="radio_txt">S</span>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+		<div class="txt_express">
+			注：G代表睿晗，Y代表坤燕，L代表坤龙，S代表胜平
+		</div>
+
+		<div class="list_btn">
+			<button class="btn_list">提交</button>
+		</div>
+
+
+
+		
+		<div class="person">
+			<span class="mui-icon mui-icon-contact mui-icon-icon-contact"></span>
+			<span class="user_name">dragon</span>
+		</div>
+	</div>
+	<script src="js/mui.min.js"></script>
+	<script>
+		mui.init({
+			swipeBack: true //启用右滑关闭功能
+		});
+	</script>
+
+
+
+</body>
+</html>
